@@ -1,0 +1,12 @@
+[project]
+name = "dora-gazebo-controller"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dora-rs",
+]
+
+[project.scripts]
+dora-gazebo-controller = "dora_gazebo_controller.main:main"

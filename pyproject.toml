@@ -8,9 +8,13 @@ dependencies = [
     "dora-rs",
 ]
 
-
 [project.scripts]
 dora-gazebo = "dora_gazebo.main:main"
 
 [tool.uv.sources]
 dora-rs = { path = "../dora-repo/apis/python/node" }
+
+[tool.uv.workspace]
+members = [
+    "examples/dora-gazebo-controller",
+]
