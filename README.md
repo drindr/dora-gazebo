@@ -2,6 +2,8 @@
 A Dora node provides bidirectional communication between Gazebo and Dora.
 This Node can only work with Gazebo Harmonic now.
 
+[screencast.webm](https://github.com/user-attachments/assets/d4bf0195-f543-45be-baf5-338701c8e307)
+
 ## Setup
 To use the Python binding of Gazebo, you need to install the package for specific Gazebo version from Gazebo's official repository.
 ```bash
